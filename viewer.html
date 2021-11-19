@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+
+  <link rel="stylesheet" href="style2.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar justify-content-left" id="navcolor">
+    <span class="navbar-brand mb-0 h1"><img class="logoheader"
+        src="https://cdn.discordapp.com/attachments/910912263760797748/910912816565862430/unknown.png" alt=""></span>
+
+    <div class="topnav-right">
+      <span><a class="kanan" href="#" data-bs-toggle="modal" data-bs-target="#reset">Reset</a></span>
+      <span><a class="kanan" target="_blank" href="https://en.wikipedia.org/wiki/Barack_Obama">About</a></span>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Button trigger modal -->
+
+
+
+  <div>
+
+    <section id="div1">
+      <h1 class="centertext">Browse for "Creator"</h1>
+      <form id="formredeem" >
+        <input class="form-control form-control-lg" id="half" type="text"
+          placeholder="Have Promo Code ? Enter promo code here!">
+
+      </form>
+
+
+
+        <div>
+          <p style="text-align: center;" id="kupon"></p>
+          
+        </div>
+
+      <div class="container">
+        <div class="card-group">
+
+          <!--bootstrap card with 3 horizontal images-->
+          <div class="row">
+            <div class="card col-md-4 pendek">
+
+              <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#ridwan">
+
+                <img class="card-img-top profil"
+                  src="https://cdn.discordapp.com/attachments/910912263760797748/911076194219352084/unknown.png">
+
+                <div class="card-body">
+                  <h3 class="card-title">Ridwan</h3>
+                  <p class="card-text"> deskripsi orangnya kayak apa</p>
+                </div>
+              </a>
+            </div>
+
+
+            <div class="card col-md-4 pendek">
+
+              <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#agyad">
+                <img class="card-img-top profil"
+                  src="https://cdn.discordapp.com/attachments/910912263760797748/911076194219352084/unknown.png">
+
+                <div class="card-body">
+                  <h3 class="card-title">Agyad</h3>
+                  <p class="card-text">deskripsi orangnya kayak apa</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card col-md-4 pendek">
+
+              <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#bima">
+                <img class="card-img-top profil"
+                  src="https://cdn.discordapp.com/attachments/910912263760797748/911076194219352084/unknown.png">
+
+                <div class="card-body">
+                  <h3 class="card-title">Bima</h3>
+                  <p class="card-text">deskripsi orangnya kayak apa</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="card col-md-4  pendek">
+              <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#dika">
+                <img class="card-img-top profil"
+                  src="https://cdn.discordapp.com/attachments/910912263760797748/911076194219352084/unknown.png">
+
+                <div class="card-body">
+                  <h3 class="card-title">Dika</h3>
+                  <p class="card-text">deskripsi orangnya kayak apa</p>
+                </div>
+              </a>
+            </div>
+            <div class="card col-md-4 pendek">
+
+              <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#alam">
+                <img class="card-img-top profil"
+                  src="https://cdn.discordapp.com/attachments/910912263760797748/911076194219352084/unknown.png">
+
+                <div class="card-body">
+                  <h3 class="card-title">Alam</h3>
+                  <p class="card-text">deskripsi orangnya kayak apa</p>
+                </div>
+              </a>
+            </div>
+            <div class="card col-md-4 pendek">
+              <a href="#" class="link">
+                <img class="card-img-top profil"
+                  src="https://cdn.discordapp.com/attachments/910912263760797748/911076194219352084/unknown.png">
+
+                <div class="card-body">
+
+                  <h3 class="card-title">Coming soon!</h3>
+                  <p class="card-text">Conten available : TBA</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- 
+
+  <button type="button" class="btn btn-primary creator" data-bs-toggle="modal" data-bs-target="#ridwan">
+    Ridwan
+  </button>
+
+  <button type="button" class="btn btn-primary creator" data-bs-toggle="modal" data-bs-target="#agyad">
+    Agyad
+  </button>
+
+  <button type="button" class="btn btn-primary creator" data-bs-toggle="modal" data-bs-target="#bima">
+    Bima
+  </button>
+
+  <button type="button" class="btn btn-primary creator" data-bs-toggle="modal" data-bs-target="#dika">
+    Dika
+  </button>
+
+  <button type="button" class="btn btn-primary creator" data-bs-toggle="modal" data-bs-target="#alam">
+    Alam
+  </button>
+ -->
+
+  </section>
+
+
+
+  <section id="div2">
+    <div onclick="addBalance()"" class=" circle user-select-none">Click to Mine HackCoins</div>
+    <p class="text">Jumlah Saldo : <span id="bal">0 </span></p>
+    <hr>
+
+    <ul class="list-group" id="lisa">
+      <li class="list-group-item active">Your Library</li>
+
+    </ul>
+    <button onclick="unsubscribe()" type="button" class="btn btn-danger">Unsubscribe</button>
+
+  </section>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- ---------------------------------------- batas modal--------------------------------------------- -->
+
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="ridwan" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ridwan's Page</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- ------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------- -->
+
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://media.discordapp.net/attachments/400574768610279428/897580348416884796/unknown.png"
+                alt="Card image cap" id="konten0" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button onclick="myFunction('konten0')" class="button button1" id='tombol0'> Tier 1</button>
+                <span id="t1"> 10 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910970556457816104/download.png"
+                alt="Card image cap" id="konten1" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten1')" id='tombol1'> Tier 2</button>
+                <span id="t2"> 15 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910978314917785630/maxresdefault_1.jpg"
+                alt="Card image cap" id="konten2" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten2')" id='tombol2'> Tier 3</button>
+                <span id="t3"> 30 HCC </span>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------------------------------------------- -->
+          <!-- -------------------------------------------------------------- -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="agyad" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Agyad's Page</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- ------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------- -->
+
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://media.discordapp.net/attachments/400574768610279428/897580348416884796/unknown.png"
+                alt="Card image cap" id="konten3" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten3')" id='tombol3'> Tier 1</button>
+                <span id="t1"> 10 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910970556457816104/download.png "
+                alt="Card image cap" id="konten4" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten4')" id='tombol4'> Tier 2</button>
+                <span id="t2"> 15 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910978314917785630/maxresdefault_1.jpg"
+                alt="Card image cap" id="konten5" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten5')" id='tombol5'> Tier 3</button>
+
+                <span id="t3"> 30 HCC </span>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------------------------------------------- -->
+          <!-- -------------------------------------------------------------- -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="bima" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bima's Page</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- ------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------- -->
+
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://media.discordapp.net/attachments/400574768610279428/897580348416884796/unknown.png"
+                alt="Card image cap" id="konten6" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten6')" id='tombol6'> Tier 1</button>
+                <span id="t1"> 10 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910970556457816104/download.png"
+                alt="Card image cap" id="konten7" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten7')" id='tombol7'> Tier 2</button>
+                <span id="t2"> 15 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910978314917785630/maxresdefault_1.jpg"
+                alt="Card image cap" id="konten8" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten8')" id='tombol8'> Tier 3</button>
+                <span id="t3"> 30 HCC </span>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------------------------------------------- -->
+          <!-- -------------------------------------------------------------- -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="dika" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Dika's Page</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- ------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------- -->
+
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://media.discordapp.net/attachments/400574768610279428/897580348416884796/unknown.png"
+                alt="Card image cap" id="konten9" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten9')" id='tombol9'> Tier 1</button>
+                <span id="t1"> 10 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910970556457816104/download.png"
+                alt="Card image cap" id="konten10" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten10')" id='tombol10'> Tier 2</button>
+                <span id="t2"> 15 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910978314917785630/maxresdefault_1.jpg"
+                alt="Card image cap" id="konten11" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten11')" id='tombol11'> Tier 3</button>
+                <span id="t3"> 30 HCC </span>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------------------------------------------- -->
+          <!-- -------------------------------------------------------------- -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="alam" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Alam's Page</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- ------------------------------------------------------------- -->
+          <!-- ------------------------------------------------------------- -->
+
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top"
+                src="https://media.discordapp.net/attachments/400574768610279428/897580348416884796/unknown.png"
+                alt="Card image cap" id="konten12" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten12')" id='tombol12'> Tier 1</button>
+                <span id="t1"> 10 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910970556457816104/download.png"
+                alt="Card image cap" id="konten13" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten13')" id='tombol13'> Tier 2</button>
+                <span id="t2"> 15 HCC </span>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top"
+                src="https://cdn.discordapp.com/attachments/910912263760797748/910978314917785630/maxresdefault_1.jpg"
+                alt="Card image cap" id="konten14" style="display: none;">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <button class="button button1" onclick="myFunction('konten14')" id='tombol14'> Tier 3</button>
+                <span id="t3"> 30 HCC </span>
+              </div>
+            </div>
+          </div>
+          <!-- -------------------------------------------------------------- -->
+          <!-- -------------------------------------------------------------- -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="reset" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Apakah anda yakin untuk keluar dari halaman ini ?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Anda akan kehilangan seluruh HackCoins dan konten yang telah anda beli.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary"><a style="color: white; text-decoration: none;" onclick="reset()">Ya</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="test.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

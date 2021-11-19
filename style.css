@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;700;900&display=swap');
+
+#navcolor{
+background-color: #ff3333;
+color: white;
+font-weight: bold;
+font-family: Montserrat;
+}
+
+.logoheader{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+.wallpaper{
+    height: 100vh;
+    background-image: url("https://cdn.discordapp.com/attachments/910821059673083947/910930510094667846/unknown.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-top: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+
+
+#div1{
+    height: 100%;
+    width: 70%;
+    /* background-color: green; */
+    float: left;
+    height: 100vh;
+    
+    
+}
+ #div2{
+    padding-top: 50vh;
+    height: 100vh;
+    width: 30%;
+   /* background-color: blue; */
+    float: left;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 95%;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    text-align: center;
+    width: 55%;
+    font-weight: 500 ;
+ 
+    background-color: #ff3333; 
+    color: ffff;
+
+  }
+  
+  .button1:hover {
+    background-color: hsl(0, 100%, 52%);
+    color: white;
+  }
